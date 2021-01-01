@@ -1,0 +1,7 @@
+name: heartdisease_pipeline_with_mlflow
+
+conda_env: disease_conda.yaml
+
+entry_points:
+  main:
+    command: 'python pipeline_with_mlflow.py'

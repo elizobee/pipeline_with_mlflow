@@ -1,0 +1,16 @@
+name: disease-conda
+
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - mlflow==1.11.0
+    - scikit-learn==0.23.2
+    - cloudpickle==1.5.0
+    - pandas==1.1.1
+    - numpy==1.19.1
+
